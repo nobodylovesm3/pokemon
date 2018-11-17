@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("blurred_background.png") center;
+    width: 1920px;
+    height: 1080px;
+    font-family: sans-serif;
+}
+
+#tableAndTitle {
+    display: inline-block;
+    top: 410px;
+    left: 20px;
+    position: absolute;
+
+}
+
+p {
+    display: flex;
+    top: 10px;
+    left: 10px;
+
+    position: absolute;
+    border: 10px solid #2C439A;
+    color: #2C439A;
+    background-color: #FAC100;
+    font-weight: bold;
+    border-radius: 46%;
+
+    word-spacing: 5px;
+    font-size: 15px;
+    text-decoration: none;
+
+    padding: 16px 32px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 413px;
+
+}
+
+#addPokemon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+    top: 410px;
+
+}
+
+.divider {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+input[type=submit] {
+    padding: 16px 32px;
+    background-color: #FAC100;
+    color: #2C439A;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 46%;
+    border: 10px solid #2C439A;
+    font-size: 15px;
+}
+
+input[type=text] {
+    font-size: 20px;
+}
